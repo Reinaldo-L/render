@@ -52,7 +52,7 @@ function App() {
           <Col sm={12} md={9}>
             <Listado colaboradores={filteredColaboradores} />
           </Col>
-          <Col md={3} className="">
+          <Col md={3} className="" >
             <h2>Add worker</h2>
             <Formulario onSubmit={handleSubmit} setAlert={setAlert} />
             {alert.msg && <Alert color={alert.color}>{alert.msg}</Alert>}
