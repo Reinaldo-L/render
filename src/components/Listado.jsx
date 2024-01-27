@@ -7,10 +7,10 @@ const Listado = ({ colaboradores }) => {
         <thead>
           <tr>
             <th>Full Name</th>
-            <th>Email</th>
+            <th>Email Address</th>
             <th>Age</th>
             <th>Position</th>
-            <th>Phone number</th>
+            <th>Phone</th>
           </tr>
         </thead>
         <tbody>

@@ -5,7 +5,7 @@ const Buscador = ({ search, onChange }) => {
         <input
           className="form-control me-2 my-3"
           type="search"
-          placeholder="Search"
+          placeholder="Search by Name"
           aria-label="Search"
           value={search}
           onChange={onChange}
